@@ -1,0 +1,10 @@
+# requirements.txt
+numpy
+sounddevice
+pydub
+faster-whisper
+torch
+torchaudio
+# Silero VAD se carga como modelo torch
+python-dotenv
+simpleaudio
