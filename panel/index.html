@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Saylo Chat</title>
+    <link rel="stylesheet" href="/panel/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="/panel/app.js"></script>
+</head>
+
+<body>
+
+<div id="chat-wrapper">
+
+    <div id="avatar-container">
+        <div id="avatar"></div>
+        <h1 id="chat-title">Saylo</h1>
+    </div>
+
+    <div id="chat-container"></div>
+
+    <div id="typing-indicator" class="hidden">
+        <span></span><span></span><span></span>
+    </div>
+
+    <div id="input-area">
+        <input id="textInput" type="text" placeholder="Escribe un mensaje..." autocomplete="off">
+
+        <button id="micBtn" class="icon-btn" title="Hablar">
+            <span class="material-icons">mic</span>
+        </button>
+
+        <button id="sendText" class="send-btn">Enviar</button>
+    </div>
+
+</div>
+
+<audio id="audioPlayer" style="display:none;"></audio>
+
+</body>
+
+</html>
